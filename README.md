@@ -27,6 +27,20 @@ kubernetes
     A playbook that deploys a docker + kubernetes cluster on bare metal.
     Primarily targets RHEL based systems.
 
+Project setup
+-------------
+You need to have working Ansible already installed. Issue:
+
+	git clone https://github.com/jameskyle/ansible-sandbox.git
+	cd ansible-sandbox
+	ansible-galaxy install -r requirements.yml
+
+Above commands shall create roles/ subdirectory with ansible playbook roles.
+
+Specifically for gentoo role (Automated installation of Gentoo Linux)
+please see http://blog.jameskyle.org/2014/08/automated-stage3-gentoo-install-using-ansible/
+for more instructions.
+
 License
 -------
 
